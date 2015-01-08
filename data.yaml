@@ -1,0 +1,182 @@
+sections:
+   -
+      title: Ihr Unternehmen
+      questions:
+         -
+            title: Wieviele Mitarbeiter beschäftigt Ihr Unternehmen?
+            type: radio-inline
+            answers:
+               - 1 bis 10
+               - 10 bis 100
+               - 100 bis 1.000
+               - 1.000 bis 10.000
+               - Mehr als 10.000
+         -
+            title: In welcher Branche ist Ihr Unternehmen tätig?
+            type: select
+            answers:
+               - Landwirtschaft
+               - Sonstige
+         -
+            title: Welche Bedeutung hat die Softwareentwicklung für Ihr Unternehmen?
+            type: radio
+            answers:
+               - Softwareentwicklung ist unser Kerngeschäft
+               - Unser Geschäft hängt unverzichtbar von Individualsoftware ab
+               - Individualsoftware ergänzt Standardsoftware
+               - Individualsoftware wird nur in Randbereichen eingesetzt
+               - Individualsoftware spielt überhaupt keine Rolle
+         -
+            title: Wie wird Individualsoftware in Ihrem Unternehmen überwiegend entwickelt?
+            type: radio
+            answers:
+               - Entwicklung mit eigenem Personal
+               - Entwicklung mit eigenem Personal und externen Consultants
+               - Entwicklung mit externen Consultants
+               - Entwicklung durch Generalunternehmer
+   -
+      title: Ihre Rolle
+      questions:
+         -
+            title: Welche Rolle haben Sie?
+            type: radio
+            answers:
+               - Oberes Management
+               - Mittleres Management
+               - Unteres Management
+               - Angestellter
+         -
+            title: In welchen Bereichen tragen Sie Verantwortung?
+            type: checkbox
+            answers:
+               - Technische Entscheidungen
+               - Kaufmännische Entscheidungen
+               - Organisatorische Entscheidungen
+               - Juristische Entscheidungen
+   -
+      title: Nutzung von Open Source in der Softwareentwicklung
+      questions:
+         -
+            title: Welche Bedeutung haben Open Source Tools und Betriebssysteme bei der Softwareentwicklung in Ihrem Unternehmen?
+            type: radio-inline
+            answers:
+               - Sehr wichtig
+               - Wichtig
+               - Weniger wichtig
+               - Unwichtig
+         -
+            title: Welche Bedeutung haben Open Source Libraries und Frameworks bei der Softwareentwicklung in Ihrem Unternehmen?
+            type: radio-inline
+            answers:
+               - Sehr wichtig
+               - Wichtig
+               - Weniger wichtig
+               - Unwichtig
+         -
+            title: Wie aktiv beteiligt sich Ihr Unternehmen an der Verbesserung und Weiterentwicklung von Open Source Projekten?
+            type: radio-inline
+            answers:
+               - Sehr aktiv
+               - Aktiv
+               - Weniger aktiv
+               - Gar nicht
+         -
+            title: In welcher Art beteiligt sich Ihr Unternehmen an der Verbesserung und Weiterentwicklung von Open Source Projekten?
+            type: checkbox
+            answers:
+               - Fehlermeldungen und Verbesserungsvorschläge
+               - Einreichung von Code mit neuen Funktionen
+               - Einreichung von Patches für Fehler
+               - Finanzielle Unterstützung
+         -
+            title: Hat Ihr Unternehmen eine führende Rolle in der Entwicklung von (aktiven) Open Source Projekten?
+            type: radio
+            answers:
+               - Ja, wir haben eigene Projekte veröffentlicht
+               - Ja, wir arbeiten an bestehenden Projekten mit
+               - Nein
+         -
+            title: Welche Erfahrungen hat Ihr Unternehmen mit der Partizipation an Open Source Projekten gemacht?
+            type: radio
+            answers:
+               - Es war ein großer Erfolg
+               - Es war OK
+               - 
+                  title: Wir hatten Probleme, die sich aber nicht stark ausgewirkt haben
+                  followUpTitle: Welche?
+               -
+                  title: Wir hatten ernsthafte negative Konsequenzen
+                  followUpTitle: Welche?
+         -
+            title: Würden Sie anderen Unternehmen empfehlen, an Open Source Projekten zu partizipieren?
+            type: radio
+            answers:
+               - Ja, auf jeden Fall
+               - Ja, aber es kommt auf die genauen Umstände an
+               - Eher nicht
+               - Auf keinen Fall
+   -
+      title: Erwartungen an Open Source in der Softwareentwicklung
+      questions:
+         -
+            title: Welche Vorteile versprechen Sie sich durch die Nutzung von Open Source Projekten für Ihre Softwareentwicklung?
+            type: checkbox
+            answers:
+               - Geringere Entwicklungsaufwände
+               - Geringere Lizenzkosten
+               - Höhere Qualität
+               - Höhere Mitarbeitermotivation
+               - Verbesserung der Mitarbeiterqualifikation
+         -
+            title: Welche Nachteile befürchten Sie durch die Nutzung von Open Source Projekten für Ihre Softwareentwicklung?
+            type: checkbox
+            answers:
+               - Höhere Entwicklungsaufwände
+               - Juristische Risiken
+               - Geringere Qualität
+               - Fehlende langfristige Unterstützung
+               - Fehlender kurzfristigen Supports/der Fehlerbehebung
+               - Fehlende Features, bzw. fehlende Weiterentwicklung
+         -
+            title: Welche Vorteile versprechen Sie sich durch die Veröffentlichung oder starke Partizipation an Open Source Projekten?
+            type: checkbox
+            answers:
+               - Positives Image und Bekanntheit bei Kunden
+               - Positives Image und Bekanntheit bei potentiellen neuen Mitarbeitern
+               - Modernisierung interner Prozesse
+               - Leichtere Zusammenarbeit im Unternehmen und mit Partnern oder Kunden
+               - Verbesserung der Qualität der eigenen Software
+               - Verbesserung der Qualifikation der eigenen Mitarbeiter
+               - Verbesserung der Mitarbeitermotivation
+               - Reduktion der Wartungsaufwände
+         -
+            title: Welche Nachteile befürchten Sie durch die Veröffentlichung oder starke Partizipation an Open Source Projekten?
+            type: checkbox
+            answers:
+               - Juristische Risiken
+               - Hohe Betreuungsaufwände
+               - Weitergabe von Geschäftsgeheimnissen
+               - Verlust von Wettbewerbsvorteilen
+               - Vertrauensverlust bei Kunden
+   -
+      title: Hürden für die Beteiligung an Open Source Projekten
+      questions:
+         -
+            title: Was behindert Sie bei der Beteiligung an Open Source Projekten?
+            type: checkbox
+            answers:
+               - Fehlender Nutzen für das Unternehmen
+               - Risiken überwiegen die Vorteile
+               - Kein Budget
+               - Fehlende Erlaubnis
+               - Fehlende Möglichkeit, Verträge (Contribution Agreements) abzuschließen
+               - Fehlende Bereitschaft bei Kollegen oder Mitarbeitern
+         -
+            title: Was würde Ihnen helfen, um Open Source Projekte in Ihrem Unternehmen starten zu können?
+            type: checkbox
+            answers:
+               - Erfahrungsaustausch mit Gleichgesinnten
+               - Informationssammlungen oder Leitfäden
+               - Beratung durch erfahrene Experten
+               - Vorbereitete und geprüfte Verträge
+               - Clearing-Stelle für Contribution Agreements
