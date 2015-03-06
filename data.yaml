@@ -87,7 +87,18 @@ sections:
                - Fehlermeldungen und Verbesserungsvorschläge
                - Einreichung von Code mit neuen Funktionen
                - Einreichung von Patches für Fehler
+               - Einreichung von Verbesserungsvorschlägen für Dokumentation
+               - Beteiligung an Supportforen, Mailinglisten o.ä.
                - Finanzielle Unterstützung
+
+            title: Wer entscheidet über eine Beteiligung an Open Source Projekten?
+            type: checkbox
+            answers:
+            	- Geschäftsleitung
+            	- IT-Abteilung
+            	- Rechtsabteilung
+            	- Fachabteilung
+            	- einzelne Mitarbeiter in Eigenregie
          -
             title: Hat Ihr Unternehmen eine führende Rolle in der Entwicklung von (aktiven) Open Source Projekten?
             type: radio
@@ -125,6 +136,7 @@ sections:
                - Geringere Entwicklungsaufwände
                - Geringere Lizenzkosten
                - Höhere Qualität
+               - Höhere Sicherheit
                - Höhere Mitarbeitermotivation
                - Verbesserung der Mitarbeiterqualifikation
          -
@@ -134,6 +146,7 @@ sections:
                - Höhere Entwicklungsaufwände
                - Juristische Risiken
                - Geringere Qualität
+               - Geringere Sicherheit
                - Fehlende langfristige Unterstützung
                - Fehlender kurzfristigen Supports/der Fehlerbehebung
                - Fehlende Features, bzw. fehlende Weiterentwicklung
